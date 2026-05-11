@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Matheshwaran K | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursor-follower"></div>
+
+  <!-- Floating Background Orbs -->
+  <div class="bg-orbs">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+    <div class="orb orb-4"></div>
+  </div>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>MK<span class="logo-bracket">/&gt;</span>
+      </a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#certifications" class="nav-link">Certifications</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="hero-badge reveal">
+        <i class="fas fa-code"></i> Available for Internships & Opportunities
+      </div>
+      <h1 class="hero-name reveal">
+        Hi, I'm <span class="gradient-text">Matheshwaran K</span>
+      </h1>
+      <p class="hero-role reveal">
+        Computer Science Engineering Student |
+        <span class="typed-text" id="typed-text"></span><span class="cursor-blink">|</span>
+      </p>
+      <p class="hero-intro reveal">
+        Passionate about building <strong>responsive</strong> and <strong>user-friendly</strong> web applications.
+      </p>
+      <div class="hero-buttons reveal">
+        <a href="#projects" class="btn btn-primary">
+          <i class="fas fa-rocket"></i> View Projects
+        </a>
+        <a href="#contact" class="btn btn-outline">
+          <i class="fas fa-paper-plane"></i> Contact Me
+        </a>
+      </div>
+
+    </div>
+    <div class="hero-visual reveal">
+      <div class="code-card">
+        <div class="code-card-header">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+          <span class="code-card-title">matheshwaran.js</span>
+        </div>
+        <div class="code-card-body">
+          <pre><code><span class="kw">const</span> <span class="var">developer</span> <span class="op">=</span> {
+  <span class="prop">name</span>: <span class="str">"Matheshwaran K"</span>,
+  <span class="prop">role</span>: <span class="str">"CSE Student"</span>,
+  <span class="prop">skills</span>: [
+    <span class="str">"Python"</span>, <span class="str">"Java"</span>,
+    <span class="str">"HTML"</span>, <span class="str">"CSS"</span>,
+    <span class="str">"JavaScript"</span>
+  ],
+  <span class="prop">passion</span>: <span class="str">"Web Development"</span>,
+  <span class="prop">available</span>: <span class="bool">true</span>
+};</code></pre>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-dot"></div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Get to Know Me</span>
+        <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-image-wrap reveal">
+          <div class="about-avatar">
+            <div class="avatar-ring"></div>
+            <div class="avatar-inner">
+              <img src="WhatsApp Image 2026-05-10 at 5.00.51 PM.jpeg" alt="Profile photo" class="avatar-photo" />
+              <i class="fas fa-user-tie"></i>
+            </div>
+          </div>
+          <div class="about-stats">
+            <div class="stat-card">
+              <span class="stat-num">2+</span>
+              <span class="stat-label">Projects</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">5+</span>
+              <span class="stat-label">Certifications</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">7.7</span>
+              <span class="stat-label">CGPA</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-text reveal">
+          <h3>A Passionate Developer & Problem Solver</h3>
+          <p>I'm a dedicated and enthusiastic <strong>Computer Science Engineering student</strong> at Chettinad College
+            of Engineering and Technology. With strong analytical and problem-solving skills, I thrive on tackling
+            complex challenges and turning ideas into functional, elegant solutions.</p>
+          <p>As a quick learner, I'm passionate about innovation and technology — always exploring the latest trends in
+            web development and full-stack applications. I believe great software is a combination of clean code,
+            thoughtful design, and real-world impact.</p>
+          <p>When I'm not coding, you'll find me exploring new tools, contributing to projects, and continuously
+            sharpening my skills to become a well-rounded developer ready for industry challenges.</p>
+          <div class="about-tags">
+            <div class="resume-dropdown">
+              <a href="#" id="resume-trigger"
+                data-resume-url="https://drive.google.com/file/d/1ao6uadaXITasKRHjQmOeEm0NctiG7hak/preview"
+                class="tag tag-link"><i class="fas fa-file-pdf"></i> Resume</a>
+            </div>
+            <a href="https://www.instagram.com/" target="_blank" class="tag tag-link instagram"><i
+                class="fab fa-instagram"></i> Instagram</a>
+            <a href="https://www.linkedin.com/in/matheshwaran-k-481972409/" target="_blank"
+              class="tag tag-link linkedin"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+            <a href="https://github.com/Matheskwaran" target="_blank" class="tag tag-link github"><i
+                class="fab fa-github"></i> GitHub</a>
+          </div>
+          <div class="resume-panel" id="resume-panel">
+            <div class="resume-panel-header">
+              <span>Resume Viewer</span>
+              <div class="resume-panel-actions">
+                <a href="https://drive.google.com/uc?export=download&id=1ao6uadaXITasKRHjQmOeEm0NctiG7hak"
+                  class="btn btn-outline" id="resume-download" target="_blank" rel="noopener noreferrer">
+                  <i class="fas fa-download"></i> Download
+                </a>
+                <button type="button" class="resume-close" id="resume-close" aria-label="Close Resume">✕</button>
+              </div>
+            </div>
+            <iframe id="resume-iframe" src="" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">What I Know</span>
+        <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+        <div class="section-line"></div>
+      </div>
+
+      <div class="skills-categories">
+        <!-- Languages -->
+        <div class="skills-group reveal">
+          <h3 class="skills-group-title"><i class="fas fa-terminal"></i> Languages</h3>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <div class="skill-icon python"><i class="fab fa-python"></i></div>
+              <span>Python</span>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon java"><i class="fab fa-java"></i></div>
+              <span>Java</span>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon html"><i class="fab fa-html5"></i></div>
+              <span>HTML5</span>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon css"><i class="fab fa-css3-alt"></i></div>
+              <span>CSS3</span>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon js"><i class="fab fa-js-square"></i></div>
+              <span>JavaScript</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="skills-group reveal">
+          <h3 class="skills-group-title"><i class="fas fa-wrench"></i> Tools & Platforms</h3>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <div class="skill-icon git"><i class="fab fa-git-alt"></i></div>
+              <span>Git</span>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon github"><i class="fab fa-github"></i></div>
+              <span>GitHub</span>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon vscode"><i class="fas fa-code"></i></div>
+              <span>VS Code</span>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon figma"><i class="fab fa-figma"></i></div>
+              <span>Figma</span>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon eclipse"><i class="fas fa-circle-notch"></i></div>
+              <span>Eclipse</span>
+            </div>
+            <div class="skill-card">
+              <div class="skill-icon excel"><i class="fas fa-file-excel"></i></div>
+              <span>Excel</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">What I've Built</span>
+        <h2 class="section-title">My <span class="gradient-text">Projects</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <div class="project-card reveal">
+          <div class="project-image">
+            <div class="project-placeholder">
+              <i class="fas fa-utensils"></i>
+            </div>
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="https://github.com/Matheskwaran/restaurant-management.git" class="project-link-btn"
+                  target="_blank">
+                  <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="#" class="project-link-btn live" target="_blank">
+                  <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-number">01</div>
+            <h3 class="project-title">Restaurant Management System</h3>
+            <p class="project-desc">A dynamic frontend application for restaurant operations featuring interactive menu
+              browsing, seamless order management, and a clean, intuitive user interface designed for both staff and
+              customers.</p>
+            <ul class="project-features">
+              <li><i class="fas fa-check-circle"></i> Interactive Menu Browsing</li>
+              <li><i class="fas fa-check-circle"></i> Order Management System</li>
+              <li><i class="fas fa-check-circle"></i> Responsive & Interactive UI</li>
+            </ul>
+            <div class="project-tech">
+              <span class="tech-badge html-badge">HTML</span>
+              <span class="tech-badge css-badge">CSS</span>
+              <span class="tech-badge js-badge">JavaScript</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card reveal">
+          <div class="project-image">
+            <div class="project-placeholder purple">
+              <i class="fas fa-tasks"></i>
+            </div>
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="https://github.com/Matheskwaran/Complaint-Management.git" class="project-link-btn"
+                  target="_blank">
+                  <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="#" class="project-link-btn live" target="_blank">
+                  <i class="fas fa-external-link-alt"></i> Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="project-body">
+            <div class="project-number">02</div>
+            <h3 class="project-title">Complaint Management System</h3>
+            <p class="project-desc">A full-stack platform for efficient complaint tracking and resolution, featuring a
+              powerful admin dashboard, real-time status updates, and streamlined communication between users and
+              administrators.</p>
+            <ul class="project-features">
+              <li><i class="fas fa-check-circle"></i> Complaint Tracking System</li>
+              <li><i class="fas fa-check-circle"></i> Admin Dashboard</li>
+              <li><i class="fas fa-check-circle"></i> Real-time Status Updates</li>
+            </ul>
+            <div class="project-tech">
+              <span class="tech-badge html-badge">HTML</span>
+              <span class="tech-badge css-badge">CSS</span>
+              <span class="tech-badge js-badge">JavaScript</span>
+              <span class="tech-badge java-badge">Java</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION ===== -->
+  <section class="section section-alt" id="education">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">My Journey</span>
+        <h2 class="section-title">My <span class="gradient-text">Education</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="timeline">
+
+        <!-- Education 1 -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-year">2023 – Present</div>
+            <h3 class="timeline-degree">B.E Computer Science & Engineering</h3>
+            <p class="timeline-school">
+              <i class="fas fa-university"></i>
+              Chettinad College of Engineering and Technology
+            </p>
+            <div class="timeline-meta">
+              <span class="timeline-badge"><i class="fas fa-star"></i> CGPA: 7.7</span>
+              <span class="timeline-badge ongoing"><i class="fas fa-circle"></i> Ongoing</span>
+            </div>
+            <p class="timeline-desc">Pursuing my undergraduate degree with a focus on software engineering, data
+              structures, algorithms, web technologies, and full-stack development. Actively participating in technical
+              events and project building.</p>
+          </div>
+        </div>
+
+        <!-- Education 2 -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot">
+            <i class="fas fa-school"></i>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-year">2022 – 2023</div>
+            <h3 class="timeline-degree">Higher Secondary Certificate (HSC)</h3>
+            <p class="timeline-school">
+              <i class="fas fa-building"></i>
+              Government Higher Secondary School, Udhayanatham
+            </p>
+            <div class="timeline-meta">
+              <span class="timeline-badge"><i class="fas fa-star"></i> Percentage: 77.1%</span>
+              <span class="timeline-badge completed"><i class="fas fa-check-circle"></i> Completed</span>
+            </div>
+            <p class="timeline-desc">Completed Higher Secondary education with a focus on Mathematics, Physics, and
+              Chemistry, building a strong analytical foundation for engineering studies.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CERTIFICATIONS ===== -->
+  <section class="section" id="certifications">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">My Achievements</span>
+        <h2 class="section-title">My <span class="gradient-text">Certifications</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="certs-grid">
+
+        <div class="cert-card reveal">
+          <div class="cert-icon js-cert"><i class="fab fa-js-square"></i></div>
+          <div class="cert-body">
+            <h4>JavaScript & HTML Beginner</h4>
+            <p class="cert-issuer"><i class="fas fa-award"></i> ScholarHat</p>
+            <span class="cert-badge">Frontend</span>
+          </div>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-icon mongo-cert"><i class="fas fa-database"></i></div>
+          <div class="cert-body">
+            <h4>MongoDB Fundamentals</h4>
+            <p class="cert-issuer"><i class="fas fa-award"></i> MongoDB University</p>
+            <span class="cert-badge">Database</span>
+          </div>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-icon crud-cert"><i class="fas fa-server"></i></div>
+          <div class="cert-body">
+            <h4>CRUD Operations</h4>
+            <p class="cert-issuer"><i class="fas fa-award"></i> MongoDB University</p>
+            <span class="cert-badge">Backend</span>
+          </div>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-icon java-cert"><i class="fab fa-java"></i></div>
+          <div class="cert-body">
+            <h4>Java Developer Path</h4>
+            <p class="cert-issuer"><i class="fas fa-award"></i> Online Platform</p>
+            <span class="cert-badge">Language</span>
+          </div>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-icon power-cert"><i class="fas fa-chart-bar"></i></div>
+          <div class="cert-body">
+            <h4>Microsoft Power BI</h4>
+            <p class="cert-issuer"><i class="fas fa-award"></i> Microsoft</p>
+            <span class="cert-badge">Analytics</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Let's Connect</span>
+        <h2 class="section-title">Get In <span class="gradient-text">Touch</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="contact-grid">
+
+        <div class="contact-info reveal">
+          <h3>Let's Work Together</h3>
+          <p>I'm currently open to internship opportunities, freelance projects, and collaborative work. Feel free to
+            reach out — I'd love to connect and discuss how we can create something amazing together!</p>
+          <div class="contact-details">
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div>
+                <span class="contact-detail-label">Email</span>
+                <a href="mailto:akmathesh2006@gmail.com" class="contact-detail-value">akmathesh2006@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div>
+                <span class="contact-detail-label">Phone</span>
+                <a href="tel:+919025435414" class="contact-detail-value">+91 9025435414</a>
+              </div>
+            </div>
+            <div class="contact-detail-item">
+              <div class="contact-detail-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div>
+                <span class="contact-detail-label">Location</span>
+                <span class="contact-detail-value">Tamil Nadu, India</span>
+              </div>
+            </div>
+          </div>
+          <div class="contact-socials">
+
+            <a href="mailto:akmathesh2006@gmail.com" class="social-icon email" aria-label="Email"><i
+                class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+
+        <div class="contact-form-wrap reveal">
+          <form class="contact-form" id="contact-form">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="John Doe" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" name="email" placeholder="john@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me about your project or opportunity..."
+                required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+            <div class="form-success" id="form-success">
+              <i class="fas fa-check-circle"></i> Message sent successfully! I'll get back to you soon.
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <a href="#hero" class="nav-logo footer-logo">
+          <span class="logo-bracket">&lt;</span>MK<span class="logo-bracket">/&gt;</span>
+        </a>
+        <p class="footer-text">Designed &amp; Developed by <span class="gradient-text">Matheshwaran K</span></p>
+        <p class="footer-sub">© 2024 All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
